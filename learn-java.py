@@ -1,6 +1,5 @@
 
 print ("Hello guys welcome to (learn-java) this will help you to learn basics of java.\n ")
-language = input("ENTER THE NAME OF THE LANGUAGE WHICH YOU WANT TO LEARN: " )
 print("\033[91m {}\033[00m" .format ("\nSyntaxes:"))
 print ("\n1)Variables")
 print ("2)Primitive types")
