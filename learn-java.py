@@ -15,7 +15,7 @@ print ("\033[1;36m11)While loops\033[0m")
 print ("\033[1;36m12)Do while loops\033[0m")
 print ("\033[1;36m13)Control Flow\033[0m")
 print ("\033[1;36m14)For each loops\033[0m\n")
-part = int(input("ENTER THE NUMBER OF SYNTAX YOU WANT TO LEARN : "))
+part = int(input("Enter the number of syntax you want to learn: "))
 if part == 1:
   print ("""\nVariables 
 
