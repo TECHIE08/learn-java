@@ -1,6 +1,5 @@
 
-print ("HELLO GUYS WELCOME TO (LEARN-JAVA) THIS WILL HELP YOU LEARN\n  1.JAVA\n ")
-print ("NOTE: IT WILL ONLY PROVIDE BASIC INFORMATION OF THE LANGUAGES.\n")
+print ("Hello guys welcome to (learn-java) this will help you to learn basics of java.\n ")
 language = input("ENTER THE NAME OF THE LANGUAGE WHICH YOU WANT TO LEARN: " )
 print("\033[91m {}\033[00m" .format ("\nSyntaxes:"))
 print ("\n1)Variables")
@@ -476,4 +475,4 @@ int[] numbers = {1, 2, 3, 4};
 for (int number : numbers)""")
 
 else:
-  print ("\nWRONG INPUT!!!")  
+  print ("\nwrong input!!!")
