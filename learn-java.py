@@ -1,23 +1,24 @@
+print("Hello guys welcome to (learn-java) this will help you to learn basics of java.\n ")
+print("\033[1;91mSyntaxes:\033[0m")
+print ("\033[1;36m1)Variables\033[0m")
+print ("\033[1;36m2)Primitive types\033[0m")
+print ("\033[1;36m3)Declaring variables\033[0m")
+print ("\033[1;36m4)Comments\033[0m")
+print ("\033[1;36m5)Reference types\033[0m")
+print ("\033[1;36m6)Strings\033[0m")
+print ("\033[1;36m7)Escape sequences\033[0m")
+print ("\033[1;36m8)Arrays\033[0m")
+print ("\033[1;36m9)If statements\033[0m")
+print ("\033[1;36m10)For loops\033[0m")
+print ("\033[1;36m11)While loops\033[0m")
+print ("\033[1;36m12)Do while loops\033[0m")
+print ("\033[1;36m13)Control Flow\033[0m")
+print ("\033[1;36m14)For each loops\033[0m\n")
+try:
+  part = int(input("Enter the number of syntax you want to learn: "))
+except ValueError:
+  print("\033[1;31mWrong Input!\033[0m")
 
-print ("HELLO GUYS WELCOME TO (LEARN-JAVA) THIS WILL HELP YOU LEARN\n  1.JAVA\n ")
-print ("NOTE: IT WILL ONLY PROVIDE BASIC INFORMATION OF THE LANGUAGES.\n")
-language = input("ENTER THE NAME OF THE LANGUAGE WHICH YOU WANT TO LEARN: " )
-print("\033[91m {}\033[00m" .format ("\nSyntaxes:"))
-print ("\n1)Variables")
-print ("2)Primitive types")
-print ("3)Declaring variables")
-print ("4)Comments")
-print ("5)Reference types")
-print ("6)Strings")
-print ("7)Escape sequences")
-print ("8)Arrays")
-print ("9)If statements")
-print ("10)For loops")
-print ("11)While loops")
-print ("12)Do while loops")
-print ("13)Control Flow")
-print ("14)For each loops\n")
-part = int(input("ENTER THE NUMBER OF SYNTAX YOU WANT TO LEARN : "))
 if part == 1:
   print ("""\nVariables 
 
@@ -476,4 +477,4 @@ int[] numbers = {1, 2, 3, 4};
 for (int number : numbers)""")
 
 else:
-  print ("\nWRONG INPUT!!!")  
+  print("\033[1;31mWrong Input!\033[0m")
