@@ -1,5 +1,4 @@
-
-print ("Hello guys welcome to (learn-java) this will help you to learn basics of java.\n ")
+print("Hello guys welcome to (learn-java) this will help you to learn basics of java.\n ")
 print("\033[1;91mSyntaxes:\033[0m")
 print ("\033[1;36m1)Variables\033[0m")
 print ("\033[1;36m2)Primitive types\033[0m")
@@ -15,7 +14,11 @@ print ("\033[1;36m11)While loops\033[0m")
 print ("\033[1;36m12)Do while loops\033[0m")
 print ("\033[1;36m13)Control Flow\033[0m")
 print ("\033[1;36m14)For each loops\033[0m\n")
-part = int(input("Enter the number of syntax you want to learn: "))
+try:
+  part = int(input("Enter the number of syntax you want to learn: "))
+except ValueError:
+  print("\033[1;31mWrong Input!\033[0m")
+
 if part == 1:
   print ("""\nVariables 
 
@@ -474,4 +477,4 @@ int[] numbers = {1, 2, 3, 4};
 for (int number : numbers)""")
 
 else:
-  print ("\nwrong input!!!")
+  print("\033[1;31mWrong Input!\033[0m")
